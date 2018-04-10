@@ -19,7 +19,8 @@
     <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sembium.Connector.Library\Sembium.Connector.Library.csproj" />
+    <ProjectReference Include="..\Sembium.Connector.Common\Sembium.Connector.Common.csproj" />
+    <ProjectReference Include="..\Sembium.Connector.Oracle\Sembium.Connector.Oracle.csproj" />
   </ItemGroup>
 
 </Project>

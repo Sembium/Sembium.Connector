@@ -1,16 +1,17 @@
-﻿using Sembium.Connector.Data.Connection;
+﻿using Oracle.ManagedDataAccess.Client;
+using Sembium.Connector.Data.Connection;
+using Sembium.Connector.Data.Sql;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Oracle.ManagedDataAccess.Client;
-using System.Data.Common;
-using System.Diagnostics;
 
-namespace Sembium.Connector.Data.Sql.Oracle
+namespace Sembium.Connector.Oracle
 {
-    class OracleSqlDataConnection : ISqlDataConnection, IDisposable
+    public class OracleSqlDataConnection : ISqlDataConnection, IDisposable
     {
         private readonly ISqlConnectionStringProvider _connectionStringProvider;
         private readonly IDataConnectionConfigProvider _dataConnectionConfigProvider;

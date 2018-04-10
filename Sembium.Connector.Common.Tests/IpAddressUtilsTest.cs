@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Sembium.Connector.Library.Tests
+namespace Sembium.Connector.Common.Tests
 {
     [TestClass]
     public class IPAddressUtilsTest

@@ -4,6 +4,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Oracle.ManagedDataAccess" Version="12.2.1100" />
-    <PackageReference Include="Autofac" Version="4.6.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sembium.Connector.Common\Sembium.Connector.Common.csproj" />
   </ItemGroup>
 </Project>
